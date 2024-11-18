@@ -4,13 +4,13 @@
 
 ### 1. Install Ubuntu (Give username and Password)
 
-    If any WSL Error ? (error code 0x80370114)
-    Enable WSL Feature
+If any WSL Error ? (error code 0x80370114)
+Enable WSL Feature
 
-    Open PowerShell as Administrator:
+Open PowerShell as Administrator:
 
-    Right-click the Start menu and select Windows PowerShell (Run as administrator).
-    Run the following commands to enable WSL and Virtual Machine Platform (One by one):
+Right-click the Start menu and select Windows PowerShell (Run as administrator).
+Run the following commands to enable WSL and Virtual Machine Platform (One by one):
 
 ```sh
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
