@@ -22,12 +22,13 @@ dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V-All /all /norest
 
 ### 2. ssh to ubuntu
 Run the following command (replace username with the actual user account on the remote machine):
-    1. Find username
+    
+1. Find username
 
 ```sh
 whoami (username)
 ```
-    2. Find IP
+2. Find IP
 
 ```sh
 hostname -I
